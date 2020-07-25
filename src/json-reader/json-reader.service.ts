@@ -3,15 +3,45 @@ import { promises as fs } from 'fs';
 import { join } from 'path';
 @Injectable()
 export class JsonReaderService {
-  tenor(fileName: string): Promise<any> {
-    return this.read(fileName, 'tenor');
+  async personNumberList() {
+    try {
+      const syntheaFiles = await this.readDir('synthea');
+      const filtered = syntheaFiles.filter(arr => arr.includes('syntheadata'));
+      const result = filtered.map(filename => {
+        const list = filename.split('.');
+        const pnr = list[0];
+        return pnr;
+      });
+      return result;
+    } catch (error) {
+      return ['An error occured'];
+    }
   }
 
-  synthea(fileName: string): Promise<any> {
-    return this.read(fileName, 'synthea');
+  readTenorFile(pnr: string): Promise<any> {
+    const fn = 'p1.json';
+    console.log('TODO. CHANGE p1.json hardcoded filename');
+
+    return this.readFile(fn, 'tenor');
   }
 
-  private async read(
+  readSyntheaFile(pnr: string): Promise<any> {
+    const fileName = pnr + '.syntheadata.json';
+    return this.readFile(fileName, 'synthea');
+  }
+
+  async readAllFilesIndir(folder: 'tenor' | 'synthea') {
+    const allFileNames = await this.readDir(folder);
+    const allFiles: Promise<any>[] = [];
+    allFileNames.forEach(f => {
+      allFiles.push(this.readFile(f, folder));
+    });
+
+    const result = await Promise.all(allFiles);
+    return result;
+  }
+
+  private async readFile(
     fileName: string,
     folder: 'tenor' | 'synthea',
   ): Promise<any> {
@@ -19,9 +49,15 @@ export class JsonReaderService {
 
     try {
       const rawData = await fs.readFile(path, 'utf-8');
-      return JSON.stringify(rawData);
+      return JSON.parse(rawData);
     } catch (error) {
-      return { error: 'Error while parsing file' };
+      return { error: 'Error while parsing file', fileName };
     }
+  }
+
+  private async readDir(dir: string) {
+    const path = join(__dirname, '..', '..', 'data', dir);
+    const files = await fs.readdir(path);
+    return files;
   }
 }

@@ -1,30 +1,30 @@
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Get, Param } from '@nestjs/common';
 import { AppService } from './app.service';
-import { promises as fs } from 'fs';
-import { json } from 'express';
-import { join } from 'path';
+import { ApiParam } from '@nestjs/swagger';
+
 @Controller()
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
-  @Get()
-  getHello(): string {
-    return this.appService.getHello();
+  @Get('test-personnummer')
+  getAllTestPersonNumbers() {
+    return this.appService.getTestPersonNummers();
   }
 
-  @Get('tenor')
-  async getTenor() {
-    try {
-      const p = join(__dirname, '..', 'data', 'tenor', 'p1.json');
-      console.log(p);
+  @Get('synthea-data/:personnummer')
+  @ApiParam({ name: 'personnummer', type: 'string' })
+  getSyntheaData(@Param('personnummer') pnr) {
+    return this.appService.getSyntheaFile(pnr);
+  }
 
-      const rawData = await fs.readFile(p, 'utf8');
-      const j = JSON.parse(rawData);
-      return j;
-    } catch (error) {
-      console.log('Not found');
+  @Get('tenor-data')
+  getAllTenorFiles() {
+    return this.appService.getAllTenorFiles();
+  }
 
-      return { error: 'No file found' };
-    }
+  @Get('tenor-data/:personnummer')
+  @ApiParam({ name: 'personnummer', type: 'string' })
+  getTenorFile(@Param('personnummer') pnr) {
+    return this.appService.getTenorFile(pnr);
   }
 }

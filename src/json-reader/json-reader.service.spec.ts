@@ -14,13 +14,19 @@ describe('JsonReaderService', () => {
   it('should be defined', () => {
     expect(service).toBeDefined();
   });
+
   it('should read file', async () => {
-    const file = await service.tenor('p1.json');
+    const file = await service.readTenorFile('p1.json');
     expect(file).toBeDefined();
   });
 
   it('should return error with illegal file', async () => {
-    const file = await service.tenor('p1asdf.json');
+    const file = await service.readTenorFile('p1asdf.json');
     expect(file.error).toContain('Error');
+  });
+
+  it.only('personList should return a list', async () => {
+    const list = await service.personNumberList();
+    expect(Array.isArray(list)).toBe(true);
   });
 });

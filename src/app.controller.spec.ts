@@ -15,15 +15,10 @@ describe('AppController', () => {
     appController = app.get<AppController>(AppController);
   });
 
-  describe('root', () => {
-    it('should return "Hello World!"', () => {
-      expect(appController.getHello()).toBe('Hello World!');
-    });
-  });
-
   describe('tenor', () => {
-    it('should return Json File', () => {
-      expect(appController.getTenor()).toBeDefined();
+    it('should return Json File', async () => {
+      const tenorFile = await appController.getTenorFile();
+      expect(tenorFile).toBeDefined();
     });
   });
 });

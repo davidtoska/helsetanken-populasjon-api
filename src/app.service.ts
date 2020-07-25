@@ -4,15 +4,24 @@ import { JsonReaderService } from './json-reader/json-reader.service';
 @Injectable()
 export class AppService {
   constructor(private readonly jsonReader: JsonReaderService) {}
-  getHello(): string {
-    return 'Hello World!';
+  getTestPersonNummers(): Promise<string[]> {
+    return this.jsonReader.personNumberList();
   }
 
-  getTenorFile(id: string) {
-    return this.jsonReader.tenor(id);
+  async getTenorFile(pnr: string) {
+    const tenorFile = await this.jsonReader.readTenorFile(pnr);
+
+    return tenorFile;
   }
 
-  getSyntheaFile(id: string) {
-    return this.jsonReader.synthea(id);
+  async getAllTenorFiles() {
+    const files = await this.jsonReader.readAllFilesIndir('tenor');
+
+    return files;
+  }
+
+  async getSyntheaFile(pnr: string) {
+    const file = await this.jsonReader.readSyntheaFile(pnr);
+    return file;
   }
 }
