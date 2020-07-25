@@ -1,0 +1,262 @@
+{
+  "identifikasjonsnummer": [
+    {
+      "ajourholdstidspunkt": "2020-03-25T20:14:53.347+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "status": "iBruk",
+      "foedselsEllerDNummer": "05123900733",
+      "identifikatortype": "foedselsnummer"
+    }
+  ],
+  "status": [
+    {
+      "ajourholdstidspunkt": "2020-03-25T20:14:53.347+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "2020-03-25T20:14:53.347+01:00",
+      "status": "bosatt"
+    }
+  ],
+  "kjoenn": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "mann"
+    }
+  ],
+  "foedsel": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1939-12-05",
+      "foedselsaar": "1939",
+      "foedekommuneINorge": "4631",
+      "foedeland": "NOR"
+    }
+  ],
+  "familierelasjon": [
+    {
+      "ajourholdstidspunkt": "2020-03-26T10:46:56.506+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "1939-12-05T00:00:00+01:00",
+      "relatertPerson": "31050500430",
+      "relatertPersonsRolle": "mor",
+      "minRolleForPerson": "barn"
+    },
+    {
+      "ajourholdstidspunkt": "2020-03-26T10:46:56.506+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "1939-12-05T00:00:00+01:00",
+      "relatertPerson": "10100200304",
+      "relatertPersonsRolle": "far",
+      "minRolleForPerson": "barn"
+    },
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "relatertPerson": "20063600688",
+      "relatertPersonsRolle": "ektefelleEllerPartner",
+      "minRolleForPerson": "ektefelleEllerPartner"
+    },
+    {
+      "ajourholdstidspunkt": "2020-03-26T09:39:02.272+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "1969-12-25T00:00:00+01:00",
+      "relatertPerson": "25126901987",
+      "relatertPersonsRolle": "barn",
+      "minRolleForPerson": "far"
+    },
+    {
+      "ajourholdstidspunkt": "2020-03-26T09:39:02.272+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "1973-07-12T00:00:00+01:00",
+      "relatertPerson": "12077300706",
+      "relatertPersonsRolle": "barn",
+      "minRolleForPerson": "far"
+    },
+    {
+      "ajourholdstidspunkt": "2020-03-26T09:39:02.272+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "1962-06-04T00:00:00+02:00",
+      "relatertPerson": "04066200693",
+      "relatertPersonsRolle": "barn",
+      "minRolleForPerson": "far"
+    },
+    {
+      "ajourholdstidspunkt": "2020-03-26T09:39:02.272+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "1971-04-28T00:00:00+01:00",
+      "relatertPerson": "28047102105",
+      "relatertPersonsRolle": "barn",
+      "minRolleForPerson": "far"
+    }
+  ],
+  "sivilstand": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Vigsel",
+      "gyldighetstidspunkt": "2020-03-24T00:00:00+01:00",
+      "sivilstand": "gift",
+      "sivilstandsdato": "2020-03-24",
+      "relatertVedSivilstand": "20063600688"
+    }
+  ],
+  "navn": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "KOMPATIBEL",
+      "etternavn": "JORDBÆR",
+      "forkortetNavn": "KOMPATIBEL JORDBÆR"
+    }
+  ],
+  "bostedsadresse": [
+    {
+      "ajourholdstidspunkt": "2020-05-07T12:26:44.062+02:00",
+      "erGjeldende": true,
+      "kilde": "DataPatch 17",
+      "gyldighetstidspunkt": "2020-05-07T12:26:44.062+02:00",
+      "vegadresse": {
+        "kommunenummer": "4601",
+        "adressenavn": "Godvikveien",
+        "adressenummer": {
+          "husnummer": "66"
+        },
+        "adressekode": "41275",
+        "poststed": {
+          "poststedsnavn": "GODVIK",
+          "postnummer": "5179"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-05-07T12:00:10.726+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch 17",
+      "gyldighetstidspunkt": "2020-05-07T12:00:10.726+02:00",
+      "vegadresse": {
+        "kommunenummer": "4601",
+        "adressenavn": "Godvikveien",
+        "adressenummer": {
+          "husnummer": "66"
+        },
+        "adressekode": "41275",
+        "poststed": {
+          "poststedsnavn": "GODVIK",
+          "postnummer": "5179"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-04-21T11:03:18.444+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch",
+      "gyldighetstidspunkt": "2020-04-21T11:03:18.444+02:00",
+      "vegadresse": {
+        "kommunenummer": "4601",
+        "adressenavn": "Godvikveien",
+        "adressenummer": {
+          "husnummer": "66"
+        },
+        "poststed": {
+          "poststedsnavn": "GODVIK",
+          "postnummer": "5179"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-04-21T10:31:13.088+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch",
+      "gyldighetstidspunkt": "2020-04-21T10:31:13.088+02:00",
+      "vegadresse": {
+        "kommunenummer": "4631",
+        "adressenavn": "Landsvik",
+        "adressenummer": {
+          "husnummer": "14"
+        },
+        "poststed": {
+          "poststedsnavn": "ROSSLAND",
+          "postnummer": "5917"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-03-24T00:00:00+01:00",
+      "erGjeldende": false,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Årsakskode fra DSF: ",
+      "gyldighetstidspunkt": "2020-03-24T00:00:00+01:00",
+      "vegadresse": {
+        "kommunenummer": "4631",
+        "bruksenhetsnummer": "8",
+        "adressenavn": "Øpso",
+        "adressekode": "00001",
+        "poststed": {
+          "poststedsnavn": "ROSSLAND",
+          "postnummer": "5917"
+        },
+        "coAdressenavn": ""
+      },
+      "adresseIdentifikatorFraMatrikkelen": "411123614",
+      "adressegradering": "ugradert",
+      "grunnkrets": 504,
+      "stemmekrets": 16,
+      "skolekrets": 13,
+      "kirkekrets": 1
+    }
+  ],
+  "preferertKontaktadresse": [
+    {
+      "erGjeldende": true,
+      "kilde": "",
+      "valg": "postadresse",
+      "adressegradering": "ugradert",
+      "kontaktadresseIFrittFormat": {
+        "adresselinje": [
+          "ØPSO",
+          "5917 ROSSLAND",
+          "NORGE"
+        ]
+      }
+    }
+  ],
+  "postadresse": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "2020-03-24T00:00:00+01:00",
+      "adressegradering": "ugradert",
+      "postadresseIFrittFormat": {
+        "adresselinje": [
+          "Øpso",
+          "5917 ROSSLAND",
+          "Norge"
+        ]
+      }
+    }
+  ],
+  "statsborgerskap": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "2020-03-24T00:00:00+01:00",
+      "statsborgerskap": "NOR",
+      "ervervsdato": "2020-03-24"
+    }
+  ]
+}

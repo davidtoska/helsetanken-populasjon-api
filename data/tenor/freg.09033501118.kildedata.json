@@ -1,0 +1,256 @@
+{
+  "identifikasjonsnummer": [
+    {
+      "ajourholdstidspunkt": "2020-03-25T20:15:03.464+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "status": "iBruk",
+      "foedselsEllerDNummer": "09033501118",
+      "identifikatortype": "foedselsnummer"
+    }
+  ],
+  "status": [
+    {
+      "ajourholdstidspunkt": "2020-03-25T20:15:03.464+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "2020-03-25T20:15:03.464+01:00",
+      "status": "bosatt"
+    }
+  ],
+  "kjoenn": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "mann"
+    }
+  ],
+  "foedsel": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1935-03-09",
+      "foedselsaar": "1935",
+      "foedekommuneINorge": "1103",
+      "foedeland": "NOR"
+    }
+  ],
+  "familierelasjon": [
+    {
+      "ajourholdstidspunkt": "2020-03-26T11:03:11.833+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "1935-03-09T00:00:00+01:00",
+      "relatertPerson": "11050100687",
+      "relatertPersonsRolle": "mor",
+      "minRolleForPerson": "barn"
+    },
+    {
+      "ajourholdstidspunkt": "2020-03-26T11:03:11.833+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "1935-03-09T00:00:00+01:00",
+      "relatertPerson": "14060101397",
+      "relatertPersonsRolle": "far",
+      "minRolleForPerson": "barn"
+    }
+  ],
+  "sivilstand": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Vigsel",
+      "gyldighetstidspunkt": "2020-03-24T00:00:00+01:00",
+      "sivilstand": "ugift",
+      "sivilstandsdato": "2020-03-24"
+    }
+  ],
+  "navn": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "JACOB",
+      "etternavn": "STAVE",
+      "forkortetNavn": "JACOB  STAVE"
+    }
+  ],
+  "bostedsadresse": [
+    {
+      "ajourholdstidspunkt": "2020-05-07T12:15:53.039+02:00",
+      "erGjeldende": true,
+      "kilde": "DataPatch 17",
+      "gyldighetstidspunkt": "2020-05-07T12:15:53.039+02:00",
+      "vegadresse": {
+        "kommunenummer": "3020",
+        "adressenavn": "Brages vei",
+        "adressenummer": {
+          "husnummer": "12"
+        },
+        "adressekode": "20800",
+        "poststed": {
+          "poststedsnavn": "SOFIEMYR",
+          "postnummer": "1412"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-05-07T12:10:11.391+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch 17",
+      "gyldighetstidspunkt": "2020-05-07T12:10:11.391+02:00",
+      "vegadresse": {
+        "kommunenummer": "3020",
+        "adressenavn": "Brages vei",
+        "adressenummer": {
+          "husnummer": "12"
+        },
+        "adressekode": "20800",
+        "poststed": {
+          "poststedsnavn": "SOFIEMYR",
+          "postnummer": "1412"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-05-07T12:06:27.699+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch 17",
+      "gyldighetstidspunkt": "2020-05-07T12:06:27.699+02:00",
+      "vegadresse": {
+        "kommunenummer": "3020",
+        "adressenavn": "Brages vei",
+        "adressenummer": {
+          "husnummer": "12"
+        },
+        "adressekode": "20800",
+        "poststed": {
+          "poststedsnavn": "SOFIEMYR",
+          "postnummer": "1412"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-04-21T10:49:58.94+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch",
+      "gyldighetstidspunkt": "2020-04-21T10:49:58.94+02:00",
+      "vegadresse": {
+        "kommunenummer": "3020",
+        "adressenavn": "Brages vei",
+        "adressenummer": {
+          "husnummer": "12"
+        },
+        "poststed": {
+          "poststedsnavn": "SOFIEMYR",
+          "postnummer": "1412"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-04-21T10:43:28.982+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch",
+      "gyldighetstidspunkt": "2020-04-21T10:43:28.982+02:00",
+      "vegadresse": {
+        "kommunenummer": "5406",
+        "adressenavn": "Langstrandveien",
+        "adressenummer": {
+          "husnummer": "60"
+        },
+        "poststed": {
+          "poststedsnavn": "LANGSTRAND",
+          "postnummer": "9651"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-04-21T10:38:48.315+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch",
+      "gyldighetstidspunkt": "2020-04-21T10:38:48.315+02:00",
+      "vegadresse": {
+        "kommunenummer": "1103",
+        "adressenavn": "Mosterøyveien",
+        "adressenummer": {
+          "husnummer": "165"
+        },
+        "poststed": {
+          "poststedsnavn": "MOSTERØY",
+          "postnummer": "4156"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-03-24T00:00:00+01:00",
+      "erGjeldende": false,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Årsakskode fra DSF: ",
+      "gyldighetstidspunkt": "2020-03-24T00:00:00+01:00",
+      "vegadresse": {
+        "kommunenummer": "1103",
+        "bruksenhetsnummer": "H0101",
+        "bruksenhetstype": "bolig",
+        "adressenavn": "Kolnesveien",
+        "adressekode": "00001",
+        "poststed": {
+          "poststedsnavn": "MOSTERØY",
+          "postnummer": "4156"
+        },
+        "coAdressenavn": ""
+      },
+      "adresseIdentifikatorFraMatrikkelen": "6286335662",
+      "adressegradering": "ugradert",
+      "grunnkrets": 1406,
+      "stemmekrets": 29,
+      "skolekrets": 112,
+      "kirkekrets": 2
+    }
+  ],
+  "preferertKontaktadresse": [
+    {
+      "erGjeldende": true,
+      "kilde": "",
+      "valg": "postadresse",
+      "adressegradering": "ugradert",
+      "kontaktadresseIFrittFormat": {
+        "adresselinje": [
+          "KOLNESVEIEN",
+          "4156 MOSTERØY",
+          "NORGE"
+        ]
+      }
+    }
+  ],
+  "postadresse": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "2020-03-24T00:00:00+01:00",
+      "adressegradering": "ugradert",
+      "postadresseIFrittFormat": {
+        "adresselinje": [
+          "Kolnesveien",
+          "4156 MOSTERØY",
+          "Norge"
+        ]
+      }
+    }
+  ],
+  "statsborgerskap": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "2020-03-24T00:00:00+01:00",
+      "statsborgerskap": "NOR",
+      "ervervsdato": "2020-03-24"
+    }
+  ]
+}

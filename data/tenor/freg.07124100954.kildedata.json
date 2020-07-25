@@ -1,0 +1,151 @@
+{
+  "identifikasjonsnummer": [
+    {
+      "ajourholdstidspunkt": "2020-03-25T20:15:00.642+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "status": "iBruk",
+      "foedselsEllerDNummer": "07124100954",
+      "identifikatortype": "foedselsnummer"
+    }
+  ],
+  "status": [
+    {
+      "ajourholdstidspunkt": "2020-03-25T20:15:00.642+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "2020-03-25T20:15:00.642+01:00",
+      "status": "bosatt"
+    }
+  ],
+  "kjoenn": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "mann"
+    }
+  ],
+  "foedsel": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1941-12-07",
+      "foedselsaar": "1941",
+      "foedekommuneINorge": "4204",
+      "foedeland": "NOR"
+    }
+  ],
+  "navn": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "FREDRICK",
+      "etternavn": "SLETTE",
+      "forkortetNavn": "FREDRICK  SLETTE"
+    }
+  ],
+  "bostedsadresse": [
+    {
+      "ajourholdstidspunkt": "2020-05-07T12:04:06.637+02:00",
+      "erGjeldende": true,
+      "kilde": "DataPatch 17",
+      "gyldighetstidspunkt": "2020-05-07T12:04:06.637+02:00",
+      "vegadresse": {
+        "kommunenummer": "4204",
+        "adressenavn": "Fåmyrkollen",
+        "adressenummer": {
+          "husnummer": "4"
+        },
+        "adressekode": "41374",
+        "poststed": {
+          "poststedsnavn": "SØGNE",
+          "postnummer": "4640"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-04-21T10:35:40.442+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch",
+      "gyldighetstidspunkt": "2020-04-21T10:35:40.442+02:00",
+      "vegadresse": {
+        "kommunenummer": "4204",
+        "adressenavn": "Fåmyrkollen",
+        "adressenummer": {
+          "husnummer": "4"
+        },
+        "poststed": {
+          "poststedsnavn": "SØGNE",
+          "postnummer": "4640"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-03-24T00:00:00+01:00",
+      "erGjeldende": false,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Årsakskode fra DSF: ",
+      "gyldighetstidspunkt": "2020-03-24T00:00:00+01:00",
+      "vegadresse": {
+        "kommunenummer": "4204",
+        "bruksenhetsnummer": "34",
+        "adressenavn": "Stauslandsvingen",
+        "adressekode": "00001",
+        "poststed": {
+          "poststedsnavn": "SØGNE",
+          "postnummer": "4640"
+        },
+        "coAdressenavn": ""
+      },
+      "adresseIdentifikatorFraMatrikkelen": "215544292",
+      "adressegradering": "ugradert",
+      "grunnkrets": 2014,
+      "stemmekrets": 16,
+      "skolekrets": 23,
+      "kirkekrets": 1
+    }
+  ],
+  "preferertKontaktadresse": [
+    {
+      "erGjeldende": true,
+      "kilde": "",
+      "valg": "postadresse",
+      "adressegradering": "ugradert",
+      "kontaktadresseIFrittFormat": {
+        "adresselinje": [
+          "STAUSLANDSVINGEN",
+          "4640 SØGNE",
+          "NORGE"
+        ]
+      }
+    }
+  ],
+  "postadresse": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "2020-03-24T00:00:00+01:00",
+      "adressegradering": "ugradert",
+      "postadresseIFrittFormat": {
+        "adresselinje": [
+          "Stauslandsvingen",
+          "4640 SØGNE",
+          "Norge"
+        ]
+      }
+    }
+  ],
+  "statsborgerskap": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "2020-03-24T00:00:00+01:00",
+      "statsborgerskap": "NOR",
+      "ervervsdato": "2020-03-24"
+    }
+  ]
+}

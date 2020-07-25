@@ -1,0 +1,152 @@
+{
+  "identifikasjonsnummer": [
+    {
+      "ajourholdstidspunkt": "2020-03-25T20:15:21.967+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "status": "iBruk",
+      "foedselsEllerDNummer": "14024401392",
+      "identifikatortype": "foedselsnummer"
+    }
+  ],
+  "status": [
+    {
+      "ajourholdstidspunkt": "2020-03-25T20:15:21.967+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "2020-03-25T20:15:21.967+01:00",
+      "status": "bosatt"
+    }
+  ],
+  "kjoenn": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "mann"
+    }
+  ],
+  "foedsel": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1944-02-14",
+      "foedselsaar": "1944",
+      "foedekommuneINorge": "3001",
+      "foedeland": "NOR"
+    }
+  ],
+  "navn": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "OLE",
+      "etternavn": "HJØRNEVIK",
+      "forkortetNavn": "OLE  HJØRNEVIK"
+    }
+  ],
+  "bostedsadresse": [
+    {
+      "ajourholdstidspunkt": "2020-05-07T12:15:17.657+02:00",
+      "erGjeldende": true,
+      "kilde": "DataPatch 17",
+      "gyldighetstidspunkt": "2020-05-07T12:15:17.657+02:00",
+      "vegadresse": {
+        "kommunenummer": "3001",
+        "adressenavn": "Skanseåsen",
+        "adressenummer": {
+          "husnummer": "8"
+        },
+        "adressekode": "5910",
+        "poststed": {
+          "poststedsnavn": "SPONVIKA",
+          "postnummer": "1794"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-04-21T10:49:18.831+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch",
+      "gyldighetstidspunkt": "2020-04-21T10:49:18.831+02:00",
+      "vegadresse": {
+        "kommunenummer": "3001",
+        "adressenavn": "Skanseåsen",
+        "adressenummer": {
+          "husnummer": "8"
+        },
+        "poststed": {
+          "poststedsnavn": "SPONVIKA",
+          "postnummer": "1794"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-03-24T00:00:00+01:00",
+      "erGjeldende": false,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Årsakskode fra DSF: ",
+      "gyldighetstidspunkt": "2020-03-24T00:00:00+01:00",
+      "vegadresse": {
+        "kommunenummer": "3001",
+        "bruksenhetsnummer": "H0101",
+        "bruksenhetstype": "fritidsbolig",
+        "adressenavn": "Mørvikveien",
+        "adressekode": "00001",
+        "poststed": {
+          "poststedsnavn": "SPONVIKA",
+          "postnummer": "1794"
+        },
+        "coAdressenavn": ""
+      },
+      "adresseIdentifikatorFraMatrikkelen": "237717768",
+      "adressegradering": "ugradert",
+      "grunnkrets": 502,
+      "stemmekrets": 4,
+      "skolekrets": 37,
+      "kirkekrets": 2
+    }
+  ],
+  "preferertKontaktadresse": [
+    {
+      "erGjeldende": true,
+      "kilde": "",
+      "valg": "postadresse",
+      "adressegradering": "ugradert",
+      "kontaktadresseIFrittFormat": {
+        "adresselinje": [
+          "MØRVIKVEIEN",
+          "1794 SPONVIKA",
+          "NORGE"
+        ]
+      }
+    }
+  ],
+  "postadresse": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "2020-03-24T00:00:00+01:00",
+      "adressegradering": "ugradert",
+      "postadresseIFrittFormat": {
+        "adresselinje": [
+          "Mørvikveien",
+          "1794 SPONVIKA",
+          "Norge"
+        ]
+      }
+    }
+  ],
+  "statsborgerskap": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "2020-03-24T00:00:00+01:00",
+      "statsborgerskap": "NOR",
+      "ervervsdato": "2020-03-24"
+    }
+  ]
+}

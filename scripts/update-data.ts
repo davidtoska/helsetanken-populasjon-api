@@ -1,6 +1,7 @@
 import * as shell from 'shelljs';
 
 const synteaTenor = 'https://github.com/andreashvikt/SyntheaTenor';
+const tenorFolder = 'api30';
 
 const cloneRepo = (repoUrl: string, folder: string, branch = 'master') => {
   const cmd = `git clone -b ${branch} ${repoUrl} ${folder}`;
@@ -20,7 +21,11 @@ const copyOutputFiles = () => {
   shell.rm('-Rf', 'data/synthea');
   shell.rm('-Rf', 'data/tenor');
   shell.cp('-Rf', 'data/temp/output/fhir', 'data/synthea');
-  shell.cp('-Rf', 'data/temp/src/main/resources/tenor/web30', 'data/tenor');
+  shell.cp(
+    '-Rf',
+    'data/temp/src/main/resources/tenor/' + tenorFolder,
+    'data/tenor',
+  );
 };
 
 // Delete, Clone, Generate, Copy, and delete synthea

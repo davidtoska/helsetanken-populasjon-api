@@ -19,10 +19,8 @@ export class JsonReaderService {
   }
 
   readTenorFile(pnr: string): Promise<any> {
-    const fn = 'p1.json';
-    console.log('TODO. CHANGE p1.json hardcoded filename');
-
-    return this.readFile(fn, 'tenor');
+    const fileName = 'freg.' + pnr + '.kildedata.json';
+    return this.readFile(fileName, 'tenor');
   }
 
   readSyntheaFile(pnr: string): Promise<any> {

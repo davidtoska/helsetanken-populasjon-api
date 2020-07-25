@@ -1,0 +1,357 @@
+{
+  "identifikasjonsnummer": [
+    {
+      "ajourholdstidspunkt": "2020-03-25T20:15:10.841+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "status": "iBruk",
+      "foedselsEllerDNummer": "10093902489",
+      "identifikatortype": "foedselsnummer"
+    }
+  ],
+  "status": [
+    {
+      "ajourholdstidspunkt": "2020-03-25T20:15:10.841+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "2020-03-25T20:15:10.841+01:00",
+      "status": "bosatt"
+    }
+  ],
+  "kjoenn": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "kvinne"
+    }
+  ],
+  "foedsel": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1939-09-10",
+      "foedselsaar": "1939",
+      "foedekommuneINorge": "4601",
+      "foedeland": "NOR"
+    }
+  ],
+  "familierelasjon": [
+    {
+      "ajourholdstidspunkt": "2020-03-26T11:10:09.786+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "1939-09-10T00:00:00+01:00",
+      "relatertPerson": "17080100671",
+      "relatertPersonsRolle": "mor",
+      "minRolleForPerson": "barn"
+    },
+    {
+      "ajourholdstidspunkt": "2020-03-26T11:10:09.786+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "1939-09-10T00:00:00+01:00",
+      "relatertPerson": "06010102128",
+      "relatertPersonsRolle": "far",
+      "minRolleForPerson": "barn"
+    },
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "relatertPerson": "14053701559",
+      "relatertPersonsRolle": "ektefelleEllerPartner",
+      "minRolleForPerson": "ektefelleEllerPartner"
+    },
+    {
+      "ajourholdstidspunkt": "2020-03-26T09:47:46.477+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "1973-08-05T00:00:00+01:00",
+      "relatertPerson": "05087301011",
+      "relatertPersonsRolle": "barn",
+      "minRolleForPerson": "mor"
+    },
+    {
+      "ajourholdstidspunkt": "2020-03-26T09:47:46.477+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "1962-02-06T00:00:00+01:00",
+      "relatertPerson": "06026200944",
+      "relatertPersonsRolle": "barn",
+      "minRolleForPerson": "mor"
+    },
+    {
+      "ajourholdstidspunkt": "2020-03-26T09:47:46.477+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "1973-08-06T00:00:00+01:00",
+      "relatertPerson": "06087301050",
+      "relatertPersonsRolle": "barn",
+      "minRolleForPerson": "mor"
+    },
+    {
+      "ajourholdstidspunkt": "2020-03-26T09:47:46.477+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "1970-08-07T00:00:00+01:00",
+      "relatertPerson": "07087000081",
+      "relatertPersonsRolle": "barn",
+      "minRolleForPerson": "mor"
+    },
+    {
+      "ajourholdstidspunkt": "2020-03-26T09:47:46.477+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "1973-08-07T00:00:00+01:00",
+      "relatertPerson": "07087301170",
+      "relatertPersonsRolle": "barn",
+      "minRolleForPerson": "mor"
+    },
+    {
+      "ajourholdstidspunkt": "2020-03-26T09:47:46.477+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "1964-08-16T00:00:00+02:00",
+      "relatertPerson": "16086400069",
+      "relatertPersonsRolle": "barn",
+      "minRolleForPerson": "mor"
+    }
+  ],
+  "sivilstand": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Vigsel",
+      "gyldighetstidspunkt": "2020-03-24T00:00:00+01:00",
+      "sivilstand": "gift",
+      "sivilstandsdato": "2020-03-24",
+      "relatertVedSivilstand": "14053701559"
+    }
+  ],
+  "navn": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "EIRA",
+      "etternavn": "MELHUS",
+      "forkortetNavn": "EIRA  MELHUS"
+    }
+  ],
+  "bostedsadresse": [
+    {
+      "ajourholdstidspunkt": "2020-05-07T12:21:33.91+02:00",
+      "erGjeldende": true,
+      "kilde": "DataPatch 17",
+      "gyldighetstidspunkt": "2020-05-07T12:21:33.91+02:00",
+      "vegadresse": {
+        "kommunenummer": "0301",
+        "adressenavn": "Jegerveien",
+        "adressenummer": {
+          "husnummer": "7",
+          "husbokstav": "C"
+        },
+        "adressekode": "13419",
+        "poststed": {
+          "poststedsnavn": "OSLO",
+          "postnummer": "0777"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-05-07T12:15:46.412+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch 17",
+      "gyldighetstidspunkt": "2020-05-07T12:15:46.412+02:00",
+      "vegadresse": {
+        "kommunenummer": "3001",
+        "adressenavn": "Vedenveien",
+        "adressenummer": {
+          "husnummer": "18"
+        },
+        "adressekode": "7200",
+        "poststed": {
+          "poststedsnavn": "TISTEDAL",
+          "postnummer": "1791"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-05-07T12:09:06.137+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch 17",
+      "gyldighetstidspunkt": "2020-05-07T12:09:06.137+02:00",
+      "vegadresse": {
+        "kommunenummer": "0301",
+        "adressenavn": "Jegerveien",
+        "adressenummer": {
+          "husnummer": "7",
+          "husbokstav": "C"
+        },
+        "adressekode": "13419",
+        "poststed": {
+          "poststedsnavn": "OSLO",
+          "postnummer": "0777"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-05-07T12:00:19.965+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch 17",
+      "gyldighetstidspunkt": "2020-05-07T12:00:19.965+02:00",
+      "vegadresse": {
+        "kommunenummer": "0301",
+        "adressenavn": "Jegerveien",
+        "adressenummer": {
+          "husnummer": "7",
+          "husbokstav": "C"
+        },
+        "adressekode": "13419",
+        "poststed": {
+          "poststedsnavn": "OSLO",
+          "postnummer": "0777"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-04-21T10:57:01.726+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch",
+      "gyldighetstidspunkt": "2020-04-21T10:57:01.726+02:00",
+      "vegadresse": {
+        "kommunenummer": "0301",
+        "adressenavn": "Jegerveien",
+        "adressenummer": {
+          "husnummer": "7",
+          "husbokstav": "C"
+        },
+        "poststed": {
+          "poststedsnavn": "OSLO",
+          "postnummer": "0777"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-04-21T10:49:51.451+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch",
+      "gyldighetstidspunkt": "2020-04-21T10:49:51.451+02:00",
+      "vegadresse": {
+        "kommunenummer": "1505",
+        "adressenavn": "Fiolbakken",
+        "adressenummer": {
+          "husnummer": "7"
+        },
+        "poststed": {
+          "poststedsnavn": "KRISTIANSUND N",
+          "postnummer": "6518"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-04-21T10:42:05.346+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch",
+      "gyldighetstidspunkt": "2020-04-21T10:42:05.346+02:00",
+      "vegadresse": {
+        "kommunenummer": "4601",
+        "adressenavn": "Strimmelen",
+        "adressenummer": {
+          "husnummer": "1"
+        },
+        "poststed": {
+          "poststedsnavn": "BERGEN",
+          "postnummer": "5097"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-04-21T10:31:20.142+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch",
+      "gyldighetstidspunkt": "2020-04-21T10:31:20.142+02:00",
+      "vegadresse": {
+        "kommunenummer": "5401",
+        "adressenavn": "Rydningen",
+        "adressenummer": {
+          "husnummer": "7"
+        },
+        "poststed": {
+          "poststedsnavn": "TROMSDALEN",
+          "postnummer": "9020"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-03-24T00:00:00+01:00",
+      "erGjeldende": false,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Årsakskode fra DSF: ",
+      "gyldighetstidspunkt": "2020-03-24T00:00:00+01:00",
+      "vegadresse": {
+        "kommunenummer": "4601",
+        "bruksenhetsnummer": "4",
+        "adressenavn": "Lerkeveien",
+        "adressekode": "00001",
+        "poststed": {
+          "poststedsnavn": "BERGEN",
+          "postnummer": "5097"
+        },
+        "coAdressenavn": ""
+      },
+      "adresseIdentifikatorFraMatrikkelen": "256848734",
+      "adressegradering": "ugradert",
+      "grunnkrets": 407,
+      "stemmekrets": 13,
+      "kirkekrets": 1
+    }
+  ],
+  "preferertKontaktadresse": [
+    {
+      "erGjeldende": true,
+      "kilde": "",
+      "valg": "postadresse",
+      "adressegradering": "ugradert",
+      "kontaktadresseIFrittFormat": {
+        "adresselinje": [
+          "LERKEVEIEN",
+          "5097 BERGEN",
+          "NORGE"
+        ]
+      }
+    }
+  ],
+  "postadresse": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "2020-03-24T00:00:00+01:00",
+      "adressegradering": "ugradert",
+      "postadresseIFrittFormat": {
+        "adresselinje": [
+          "Lerkeveien",
+          "5097 BERGEN",
+          "Norge"
+        ]
+      }
+    }
+  ],
+  "statsborgerskap": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "2020-03-24T00:00:00+01:00",
+      "statsborgerskap": "NOR",
+      "ervervsdato": "2020-03-24"
+    }
+  ]
+}

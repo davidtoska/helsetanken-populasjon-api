@@ -1,0 +1,277 @@
+{
+  "identifikasjonsnummer": [
+    {
+      "ajourholdstidspunkt": "2020-03-25T20:14:53.423+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "status": "iBruk",
+      "foedselsEllerDNummer": "05128001176",
+      "identifikatortype": "foedselsnummer"
+    }
+  ],
+  "status": [
+    {
+      "ajourholdstidspunkt": "2020-03-25T20:14:53.423+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "2020-03-25T20:14:53.423+01:00",
+      "status": "bosatt"
+    }
+  ],
+  "kjoenn": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "mann"
+    }
+  ],
+  "foedsel": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1980-12-05",
+      "foedselsaar": "1980",
+      "foedekommuneINorge": "3034",
+      "foedeland": "NOR"
+    }
+  ],
+  "familierelasjon": [
+    {
+      "ajourholdstidspunkt": "2020-03-26T10:47:09.367+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "1980-12-05T00:00:00+01:00",
+      "relatertPerson": "21105001298",
+      "relatertPersonsRolle": "mor",
+      "minRolleForPerson": "barn"
+    },
+    {
+      "ajourholdstidspunkt": "2020-03-26T10:47:09.367+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "1980-12-05T00:00:00+01:00",
+      "relatertPerson": "24044702947",
+      "relatertPersonsRolle": "far",
+      "minRolleForPerson": "barn"
+    },
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "relatertPerson": "13117702647",
+      "relatertPersonsRolle": "ektefelleEllerPartner",
+      "minRolleForPerson": "ektefelleEllerPartner"
+    },
+    {
+      "ajourholdstidspunkt": "2020-03-26T09:39:08.374+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "2008-12-23T00:00:00+01:00",
+      "relatertPerson": "23120851195",
+      "relatertPersonsRolle": "barn",
+      "minRolleForPerson": "far"
+    }
+  ],
+  "sivilstand": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Vigsel",
+      "gyldighetstidspunkt": "2020-03-25T00:00:00+01:00",
+      "sivilstand": "gift",
+      "sivilstandsdato": "2020-03-25",
+      "relatertVedSivilstand": "13117702647"
+    }
+  ],
+  "navn": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Innvandring",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "MORSOM",
+      "mellomnavn": "EGOISTISK",
+      "etternavn": "GREVLING",
+      "forkortetNavn": "MORSOM EGOISTISK GREVLING"
+    }
+  ],
+  "bostedsadresse": [
+    {
+      "ajourholdstidspunkt": "2020-05-07T12:33:29.332+02:00",
+      "erGjeldende": true,
+      "kilde": "DataPatch 17",
+      "gyldighetstidspunkt": "2020-05-07T12:33:29.332+02:00",
+      "vegadresse": {
+        "kommunenummer": "3030",
+        "adressenavn": "St. Olavs gate",
+        "adressenummer": {
+          "husnummer": "52"
+        },
+        "adressekode": "13200",
+        "poststed": {
+          "poststedsnavn": "LILLESTRØM",
+          "postnummer": "2004"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-05-07T12:29:03.117+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch 17",
+      "gyldighetstidspunkt": "2020-05-07T12:29:03.117+02:00",
+      "vegadresse": {
+        "kommunenummer": "3804",
+        "adressenavn": "Ringkollen",
+        "adressenummer": {
+          "husnummer": "8",
+          "husbokstav": "A"
+        },
+        "adressekode": "26900",
+        "poststed": {
+          "poststedsnavn": "SANDEFJORD",
+          "postnummer": "3227"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-05-07T12:00:18.486+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch 17",
+      "gyldighetstidspunkt": "2020-05-07T12:00:18.486+02:00",
+      "vegadresse": {
+        "kommunenummer": "3804",
+        "adressenavn": "Ringkollen",
+        "adressenummer": {
+          "husnummer": "8",
+          "husbokstav": "A"
+        },
+        "adressekode": "26900",
+        "poststed": {
+          "poststedsnavn": "SANDEFJORD",
+          "postnummer": "3227"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-04-21T11:11:41.288+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch",
+      "gyldighetstidspunkt": "2020-04-21T11:11:41.288+02:00",
+      "vegadresse": {
+        "kommunenummer": "3804",
+        "adressenavn": "Ringkollen",
+        "adressenummer": {
+          "husnummer": "8",
+          "husbokstav": "A"
+        },
+        "poststed": {
+          "poststedsnavn": "SANDEFJORD",
+          "postnummer": "3227"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-04-21T11:06:01.544+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch",
+      "gyldighetstidspunkt": "2020-04-21T11:06:01.544+02:00",
+      "vegadresse": {
+        "kommunenummer": "5058",
+        "adressenavn": "Grøttingsveien",
+        "adressenummer": {
+          "husnummer": "321"
+        },
+        "poststed": {
+          "poststedsnavn": "ÅFJORD",
+          "postnummer": "7170"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-04-21T10:31:18.188+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch",
+      "gyldighetstidspunkt": "2020-04-21T10:31:18.188+02:00",
+      "vegadresse": {
+        "kommunenummer": "3034",
+        "adressenavn": "Knauserudvegen",
+        "adressenummer": {
+          "husnummer": "36"
+        },
+        "poststed": {
+          "poststedsnavn": "FENSTAD",
+          "postnummer": "2170"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-03-25T00:00:00+01:00",
+      "erGjeldende": false,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Årsakskode fra DSF: ",
+      "gyldighetstidspunkt": "2020-03-25T00:00:00+01:00",
+      "vegadresse": {
+        "kommunenummer": "3034",
+        "bruksenhetsnummer": "H0101",
+        "bruksenhetstype": "bolig",
+        "adressenavn": "Farsetvegen",
+        "adressekode": "00001",
+        "poststed": {
+          "poststedsnavn": "FENSTAD",
+          "postnummer": "2170"
+        },
+        "coAdressenavn": ""
+      },
+      "adresseIdentifikatorFraMatrikkelen": "360600992",
+      "adressegradering": "ugradert",
+      "grunnkrets": 106,
+      "stemmekrets": 1,
+      "skolekrets": 1,
+      "kirkekrets": 3
+    }
+  ],
+  "preferertKontaktadresse": [
+    {
+      "erGjeldende": true,
+      "kilde": "",
+      "valg": "postadresse",
+      "adressegradering": "ugradert",
+      "kontaktadresseIFrittFormat": {
+        "adresselinje": [
+          "FARSETVEGEN",
+          "2170 FENSTAD",
+          "NORGE"
+        ]
+      }
+    }
+  ],
+  "postadresse": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "2020-03-25T00:00:00+01:00",
+      "adressegradering": "ugradert",
+      "postadresseIFrittFormat": {
+        "adresselinje": [
+          "Farsetvegen",
+          "2170 FENSTAD",
+          "Norge"
+        ]
+      }
+    }
+  ],
+  "statsborgerskap": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "2020-03-25T00:00:00+01:00",
+      "statsborgerskap": "NOR",
+      "ervervsdato": "2020-03-25"
+    }
+  ]
+}

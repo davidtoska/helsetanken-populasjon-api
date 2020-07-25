@@ -1,0 +1,304 @@
+{
+  "identifikasjonsnummer": [
+    {
+      "ajourholdstidspunkt": "2020-03-25T20:15:27.388+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "status": "iBruk",
+      "foedselsEllerDNummer": "15047700121",
+      "identifikatortype": "foedselsnummer"
+    }
+  ],
+  "status": [
+    {
+      "ajourholdstidspunkt": "2020-03-25T20:15:27.388+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "2020-03-25T20:15:27.388+01:00",
+      "status": "bosatt"
+    }
+  ],
+  "kjoenn": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "mann"
+    }
+  ],
+  "foedsel": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1977-04-15",
+      "foedselsaar": "1977",
+      "foedekommuneINorge": "3025",
+      "foedeland": "NOR"
+    }
+  ],
+  "familierelasjon": [
+    {
+      "ajourholdstidspunkt": "2020-03-26T11:30:57.594+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "1977-04-15T00:00:00+01:00",
+      "relatertPerson": "24044500813",
+      "relatertPersonsRolle": "mor",
+      "minRolleForPerson": "barn"
+    },
+    {
+      "ajourholdstidspunkt": "2020-03-26T11:30:57.594+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "1977-04-15T00:00:00+01:00",
+      "relatertPerson": "18054400949",
+      "relatertPersonsRolle": "far",
+      "minRolleForPerson": "barn"
+    },
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "relatertPerson": "23097601461",
+      "relatertPersonsRolle": "ektefelleEllerPartner",
+      "minRolleForPerson": "ektefelleEllerPartner"
+    }
+  ],
+  "sivilstand": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Vigsel",
+      "gyldighetstidspunkt": "2020-03-24T00:00:00+01:00",
+      "sivilstand": "gift",
+      "sivilstandsdato": "2020-03-24",
+      "relatertVedSivilstand": "23097601461"
+    }
+  ],
+  "navn": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "BALDER",
+      "etternavn": "STORMARK",
+      "forkortetNavn": "BALDER  STORMARK"
+    }
+  ],
+  "bostedsadresse": [
+    {
+      "ajourholdstidspunkt": "2020-05-07T12:33:28.668+02:00",
+      "erGjeldende": true,
+      "kilde": "DataPatch 17",
+      "gyldighetstidspunkt": "2020-05-07T12:33:28.668+02:00",
+      "vegadresse": {
+        "kommunenummer": "3401",
+        "adressenavn": "Måltrostvegen",
+        "adressenummer": {
+          "husnummer": "31"
+        },
+        "adressekode": "1608",
+        "poststed": {
+          "poststedsnavn": "KONGSVINGER",
+          "postnummer": "2209"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-05-07T12:32:23.213+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch 17",
+      "gyldighetstidspunkt": "2020-05-07T12:32:23.213+02:00",
+      "vegadresse": {
+        "kommunenummer": "3025",
+        "adressenavn": "Aasskogveien",
+        "adressenummer": {
+          "husnummer": "5",
+          "husbokstav": "B"
+        },
+        "adressekode": "31253",
+        "poststed": {
+          "poststedsnavn": "HOLMSBU",
+          "postnummer": "3484"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-05-07T12:23:07.976+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch 17",
+      "gyldighetstidspunkt": "2020-05-07T12:23:07.976+02:00",
+      "vegadresse": {
+        "kommunenummer": "3401",
+        "adressenavn": "Måltrostvegen",
+        "adressenummer": {
+          "husnummer": "31"
+        },
+        "adressekode": "1608",
+        "poststed": {
+          "poststedsnavn": "KONGSVINGER",
+          "postnummer": "2209"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-05-07T12:17:21.754+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch 17",
+      "gyldighetstidspunkt": "2020-05-07T12:17:21.754+02:00",
+      "vegadresse": {
+        "kommunenummer": "3401",
+        "adressenavn": "Måltrostvegen",
+        "adressenummer": {
+          "husnummer": "31"
+        },
+        "adressekode": "1608",
+        "poststed": {
+          "poststedsnavn": "KONGSVINGER",
+          "postnummer": "2209"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-04-21T11:11:40.961+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch",
+      "gyldighetstidspunkt": "2020-04-21T11:11:40.961+02:00",
+      "vegadresse": {
+        "kommunenummer": "3401",
+        "adressenavn": "Måltrostvegen",
+        "adressenummer": {
+          "husnummer": "31"
+        },
+        "poststed": {
+          "poststedsnavn": "KONGSVINGER",
+          "postnummer": "2209"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-04-21T11:10:31.424+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch",
+      "gyldighetstidspunkt": "2020-04-21T11:10:31.424+02:00",
+      "vegadresse": {
+        "kommunenummer": "3025",
+        "adressenavn": "Aasskogveien",
+        "adressenummer": {
+          "husnummer": "5",
+          "husbokstav": "B"
+        },
+        "poststed": {
+          "poststedsnavn": "HOLMSBU",
+          "postnummer": "3484"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-04-21T10:58:39.313+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch",
+      "gyldighetstidspunkt": "2020-04-21T10:58:39.313+02:00",
+      "vegadresse": {
+        "kommunenummer": "0301",
+        "adressenavn": "Elisenbergveien",
+        "adressenummer": {
+          "husnummer": "24",
+          "husbokstav": "A"
+        },
+        "poststed": {
+          "poststedsnavn": "OSLO",
+          "postnummer": "0265"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-04-21T10:51:50.938+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch",
+      "gyldighetstidspunkt": "2020-04-21T10:51:50.938+02:00",
+      "vegadresse": {
+        "kommunenummer": "3025",
+        "adressenavn": "Solstadlia",
+        "adressenummer": {
+          "husnummer": "42"
+        },
+        "poststed": {
+          "poststedsnavn": "HVALSTAD",
+          "postnummer": "1395"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-03-24T00:00:00+01:00",
+      "erGjeldende": false,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Årsakskode fra DSF: ",
+      "gyldighetstidspunkt": "2020-03-24T00:00:00+01:00",
+      "vegadresse": {
+        "kommunenummer": "3025",
+        "bruksenhetsnummer": "H0101",
+        "bruksenhetstype": "bolig",
+        "adressenavn": "Hvalstadåsen",
+        "adressekode": "00001",
+        "poststed": {
+          "poststedsnavn": "HVALSTAD",
+          "postnummer": "1395"
+        },
+        "coAdressenavn": ""
+      },
+      "adresseIdentifikatorFraMatrikkelen": "62888984",
+      "adressegradering": "ugradert",
+      "grunnkrets": 508,
+      "stemmekrets": 3,
+      "skolekrets": 16,
+      "kirkekrets": 1
+    }
+  ],
+  "preferertKontaktadresse": [
+    {
+      "erGjeldende": true,
+      "kilde": "",
+      "valg": "postadresse",
+      "adressegradering": "ugradert",
+      "kontaktadresseIFrittFormat": {
+        "adresselinje": [
+          "HVALSTADÅSEN",
+          "1395 HVALSTAD",
+          "NORGE"
+        ]
+      }
+    }
+  ],
+  "postadresse": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "2020-03-24T00:00:00+01:00",
+      "adressegradering": "ugradert",
+      "postadresseIFrittFormat": {
+        "adresselinje": [
+          "Hvalstadåsen",
+          "1395 HVALSTAD",
+          "Norge"
+        ]
+      }
+    }
+  ],
+  "statsborgerskap": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "2020-03-24T00:00:00+01:00",
+      "statsborgerskap": "NOR",
+      "ervervsdato": "2020-03-24"
+    }
+  ]
+}

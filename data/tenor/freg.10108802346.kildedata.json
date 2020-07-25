@@ -1,0 +1,278 @@
+{
+  "identifikasjonsnummer": [
+    {
+      "ajourholdstidspunkt": "2020-03-25T20:15:11.149+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "status": "iBruk",
+      "foedselsEllerDNummer": "10108802346",
+      "identifikatortype": "foedselsnummer"
+    }
+  ],
+  "status": [
+    {
+      "ajourholdstidspunkt": "2020-03-25T20:15:11.149+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "2020-03-25T20:15:11.149+01:00",
+      "status": "bosatt"
+    }
+  ],
+  "kjoenn": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "mann"
+    }
+  ],
+  "foedsel": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1988-10-10",
+      "foedselsaar": "1988",
+      "foedekommuneINorge": "4631",
+      "foedeland": "NOR"
+    }
+  ],
+  "familierelasjon": [
+    {
+      "ajourholdstidspunkt": "2020-03-26T11:10:44.422+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "1988-10-10T00:00:00+01:00",
+      "relatertPerson": "22016103067",
+      "relatertPersonsRolle": "mor",
+      "minRolleForPerson": "barn"
+    },
+    {
+      "ajourholdstidspunkt": "2020-03-26T11:10:44.422+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "1988-10-10T00:00:00+01:00",
+      "relatertPerson": "04016203357",
+      "relatertPersonsRolle": "far",
+      "minRolleForPerson": "barn"
+    },
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "relatertPerson": "09048902097",
+      "relatertPersonsRolle": "ektefelleEllerPartner",
+      "minRolleForPerson": "ektefelleEllerPartner"
+    },
+    {
+      "ajourholdstidspunkt": "2020-03-26T09:48:00.266+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "2014-09-10T00:00:00+02:00",
+      "relatertPerson": "10091450955",
+      "relatertPersonsRolle": "barn",
+      "minRolleForPerson": "far"
+    }
+  ],
+  "sivilstand": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Vigsel",
+      "gyldighetstidspunkt": "2020-03-25T00:00:00+01:00",
+      "sivilstand": "gift",
+      "sivilstandsdato": "2020-03-25",
+      "relatertVedSivilstand": "09048902097"
+    }
+  ],
+  "navn": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "KONTANT",
+      "etternavn": "FASTTELEFONIFEIDE",
+      "forkortetNavn": "KONTANT FASTTELEFONIFEIDE"
+    }
+  ],
+  "bostedsadresse": [
+    {
+      "ajourholdstidspunkt": "2020-05-07T12:29:26.986+02:00",
+      "erGjeldende": true,
+      "kilde": "DataPatch 17",
+      "gyldighetstidspunkt": "2020-05-07T12:29:26.986+02:00",
+      "vegadresse": {
+        "kommunenummer": "0301",
+        "adressenavn": "Munkerudkleiva",
+        "adressenummer": {
+          "husnummer": "5",
+          "husbokstav": "C"
+        },
+        "adressekode": "14877",
+        "poststed": {
+          "poststedsnavn": "OSLO",
+          "postnummer": "1164"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-05-07T12:09:21.056+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch 17",
+      "gyldighetstidspunkt": "2020-05-07T12:09:21.056+02:00",
+      "vegadresse": {
+        "kommunenummer": "0301",
+        "adressenavn": "Munkerudkleiva",
+        "adressenummer": {
+          "husnummer": "5",
+          "husbokstav": "C"
+        },
+        "adressekode": "14877",
+        "poststed": {
+          "poststedsnavn": "OSLO",
+          "postnummer": "1164"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-05-07T11:56:41.09+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch 17",
+      "gyldighetstidspunkt": "2020-05-07T11:56:41.09+02:00",
+      "vegadresse": {
+        "kommunenummer": "0301",
+        "adressenavn": "Munkerudkleiva",
+        "adressenummer": {
+          "husnummer": "5",
+          "husbokstav": "C"
+        },
+        "adressekode": "14877",
+        "poststed": {
+          "poststedsnavn": "OSLO",
+          "postnummer": "1164"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-04-21T11:06:34.854+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch",
+      "gyldighetstidspunkt": "2020-04-21T11:06:34.854+02:00",
+      "vegadresse": {
+        "kommunenummer": "0301",
+        "adressenavn": "Munkerudkleiva",
+        "adressenummer": {
+          "husnummer": "5",
+          "husbokstav": "C"
+        },
+        "poststed": {
+          "poststedsnavn": "OSLO",
+          "postnummer": "1164"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-04-21T10:42:21.365+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch",
+      "gyldighetstidspunkt": "2020-04-21T10:42:21.365+02:00",
+      "vegadresse": {
+        "kommunenummer": "4631",
+        "adressenavn": "Skarpenesvegen",
+        "adressenummer": {
+          "husnummer": "107"
+        },
+        "poststed": {
+          "poststedsnavn": "FREKHAUG",
+          "postnummer": "5919"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-04-21T10:26:44.183+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch",
+      "gyldighetstidspunkt": "2020-04-21T10:26:44.183+02:00",
+      "vegadresse": {
+        "kommunenummer": "0301",
+        "adressenavn": "Anna Pleyms vei",
+        "adressenummer": {
+          "husnummer": "15",
+          "husbokstav": "B"
+        },
+        "poststed": {
+          "poststedsnavn": "OSLO",
+          "postnummer": "0988"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-03-25T00:00:00+01:00",
+      "erGjeldende": false,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Årsakskode fra DSF: ",
+      "gyldighetstidspunkt": "2020-03-25T00:00:00+01:00",
+      "vegadresse": {
+        "kommunenummer": "4631",
+        "bruksenhetsnummer": "H0101",
+        "bruksenhetstype": "bolig",
+        "adressenavn": "Håtuftvegen",
+        "adressekode": "00001",
+        "poststed": {
+          "poststedsnavn": "FREKHAUG",
+          "postnummer": "5919"
+        },
+        "coAdressenavn": ""
+      },
+      "adresseIdentifikatorFraMatrikkelen": "46793120",
+      "adressegradering": "ugradert",
+      "grunnkrets": 602,
+      "stemmekrets": 15,
+      "skolekrets": 12,
+      "kirkekrets": 1
+    }
+  ],
+  "preferertKontaktadresse": [
+    {
+      "erGjeldende": true,
+      "kilde": "",
+      "valg": "postadresse",
+      "adressegradering": "ugradert",
+      "kontaktadresseIFrittFormat": {
+        "adresselinje": [
+          "HÅTUFTVEGEN",
+          "5919 FREKHAUG",
+          "NORGE"
+        ]
+      }
+    }
+  ],
+  "postadresse": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "2020-03-25T00:00:00+01:00",
+      "adressegradering": "ugradert",
+      "postadresseIFrittFormat": {
+        "adresselinje": [
+          "Håtuftvegen",
+          "5919 FREKHAUG",
+          "Norge"
+        ]
+      }
+    }
+  ],
+  "statsborgerskap": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "2020-03-25T00:00:00+01:00",
+      "statsborgerskap": "NOR",
+      "ervervsdato": "2020-03-25"
+    }
+  ]
+}

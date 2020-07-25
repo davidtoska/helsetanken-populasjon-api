@@ -1,0 +1,304 @@
+{
+  "identifikasjonsnummer": [
+    {
+      "ajourholdstidspunkt": "2020-03-25T20:15:00.161+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "status": "iBruk",
+      "foedselsEllerDNummer": "07096001341",
+      "identifikatortype": "foedselsnummer"
+    }
+  ],
+  "status": [
+    {
+      "ajourholdstidspunkt": "2020-03-25T20:15:00.161+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "2020-03-25T20:15:00.161+01:00",
+      "status": "bosatt"
+    }
+  ],
+  "kjoenn": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "mann"
+    }
+  ],
+  "foedsel": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1960-09-07",
+      "foedselsaar": "1960",
+      "foedekommuneINorge": "1103",
+      "foedeland": "NOR"
+    }
+  ],
+  "familierelasjon": [
+    {
+      "ajourholdstidspunkt": "2020-03-26T10:55:42.011+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "1960-09-07T00:00:00+02:00",
+      "relatertPerson": "08122100694",
+      "relatertPersonsRolle": "mor",
+      "minRolleForPerson": "barn"
+    },
+    {
+      "ajourholdstidspunkt": "2020-03-26T10:55:42.011+01:00",
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "1960-09-07T00:00:00+02:00",
+      "relatertPerson": "06012500732",
+      "relatertPersonsRolle": "far",
+      "minRolleForPerson": "barn"
+    },
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "relatertPerson": "09056001430",
+      "relatertPersonsRolle": "ektefelleEllerPartner",
+      "minRolleForPerson": "ektefelleEllerPartner"
+    }
+  ],
+  "sivilstand": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Vigsel",
+      "gyldighetstidspunkt": "2020-03-24T00:00:00+01:00",
+      "sivilstand": "gift",
+      "sivilstandsdato": "2020-03-24",
+      "relatertVedSivilstand": "09056001430"
+    }
+  ],
+  "navn": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "ASGEIR",
+      "etternavn": "MOLDSKRED",
+      "forkortetNavn": "ASGEIR  MOLDSKRED"
+    }
+  ],
+  "bostedsadresse": [
+    {
+      "ajourholdstidspunkt": "2020-05-07T12:06:46.871+02:00",
+      "erGjeldende": true,
+      "kilde": "DataPatch 17",
+      "gyldighetstidspunkt": "2020-05-07T12:06:46.871+02:00",
+      "vegadresse": {
+        "kommunenummer": "3029",
+        "adressenavn": "Marcus Thranes vei",
+        "adressenummer": {
+          "husnummer": "53"
+        },
+        "adressekode": "6750",
+        "poststed": {
+          "poststedsnavn": "FJELLHAMAR",
+          "postnummer": "1462"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-05-07T12:05:58.818+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch 17",
+      "gyldighetstidspunkt": "2020-05-07T12:05:58.818+02:00",
+      "vegadresse": {
+        "kommunenummer": "1507",
+        "adressenavn": "Haugane",
+        "adressenummer": {
+          "husnummer": "121"
+        },
+        "adressekode": "61071",
+        "poststed": {
+          "poststedsnavn": "VATNE",
+          "postnummer": "6265"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-05-07T12:03:37.05+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch 17",
+      "gyldighetstidspunkt": "2020-05-07T12:03:37.05+02:00",
+      "vegadresse": {
+        "kommunenummer": "0301",
+        "adressenavn": "Ekebergveien",
+        "adressenummer": {
+          "husnummer": "315",
+          "husbokstav": "B"
+        },
+        "adressekode": "11462",
+        "poststed": {
+          "poststedsnavn": "OSLO",
+          "postnummer": "1166"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-05-07T12:00:21.662+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch 17",
+      "gyldighetstidspunkt": "2020-05-07T12:00:21.662+02:00",
+      "vegadresse": {
+        "kommunenummer": "1507",
+        "adressenavn": "Haugane",
+        "adressenummer": {
+          "husnummer": "121"
+        },
+        "adressekode": "61071",
+        "poststed": {
+          "poststedsnavn": "VATNE",
+          "postnummer": "6265"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-04-21T10:39:14.527+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch",
+      "gyldighetstidspunkt": "2020-04-21T10:39:14.527+02:00",
+      "vegadresse": {
+        "kommunenummer": "0301",
+        "adressenavn": "Ekebergveien",
+        "adressenummer": {
+          "husnummer": "315",
+          "husbokstav": "B"
+        },
+        "poststed": {
+          "poststedsnavn": "OSLO",
+          "postnummer": "1166"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-04-21T10:38:14.531+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch",
+      "gyldighetstidspunkt": "2020-04-21T10:38:14.531+02:00",
+      "vegadresse": {
+        "kommunenummer": "1507",
+        "adressenavn": "Haugane",
+        "adressenummer": {
+          "husnummer": "121"
+        },
+        "poststed": {
+          "poststedsnavn": "VATNE",
+          "postnummer": "6265"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-04-21T10:35:08.311+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch",
+      "gyldighetstidspunkt": "2020-04-21T10:35:08.311+02:00",
+      "vegadresse": {
+        "kommunenummer": "1103",
+        "adressenavn": "Bjergøy Ring",
+        "adressenummer": {
+          "husnummer": "58"
+        },
+        "poststed": {
+          "poststedsnavn": "SJERNARØY",
+          "postnummer": "4170"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-04-21T10:31:22.606+02:00",
+      "erGjeldende": false,
+      "kilde": "DataPatch",
+      "gyldighetstidspunkt": "2020-04-21T10:31:22.606+02:00",
+      "vegadresse": {
+        "kommunenummer": "0301",
+        "adressenavn": "Veitvetsvingen",
+        "adressenummer": {
+          "husnummer": "7",
+          "husbokstav": "A"
+        },
+        "poststed": {
+          "poststedsnavn": "OSLO",
+          "postnummer": "0595"
+        }
+      },
+      "adressegradering": "ugradert"
+    },
+    {
+      "ajourholdstidspunkt": "2020-03-24T00:00:00+01:00",
+      "erGjeldende": false,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Årsakskode fra DSF: ",
+      "gyldighetstidspunkt": "2020-03-24T00:00:00+01:00",
+      "vegadresse": {
+        "kommunenummer": "1103",
+        "bruksenhetsnummer": "H0101",
+        "bruksenhetstype": "bolig",
+        "adressenavn": "Sjernarøyvegen",
+        "adressekode": "00001",
+        "poststed": {
+          "poststedsnavn": "SJERNARØY",
+          "postnummer": "4170"
+        },
+        "coAdressenavn": ""
+      },
+      "adresseIdentifikatorFraMatrikkelen": "51252935",
+      "adressegradering": "ugradert",
+      "grunnkrets": 1012,
+      "stemmekrets": 26,
+      "skolekrets": 104,
+      "kirkekrets": 3
+    }
+  ],
+  "preferertKontaktadresse": [
+    {
+      "erGjeldende": true,
+      "kilde": "",
+      "valg": "postadresse",
+      "adressegradering": "ugradert",
+      "kontaktadresseIFrittFormat": {
+        "adresselinje": [
+          "SJERNARØYVEGEN",
+          "4170 SJERNARØY",
+          "NORGE"
+        ]
+      }
+    }
+  ],
+  "postadresse": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "2020-03-24T00:00:00+01:00",
+      "adressegradering": "ugradert",
+      "postadresseIFrittFormat": {
+        "adresselinje": [
+          "Sjernarøyvegen",
+          "4170 SJERNARØY",
+          "Norge"
+        ]
+      }
+    }
+  ],
+  "statsborgerskap": [
+    {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "gyldighetstidspunkt": "2020-03-24T00:00:00+01:00",
+      "statsborgerskap": "NOR",
+      "ervervsdato": "2020-03-24"
+    }
+  ]
+}
