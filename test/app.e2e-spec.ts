@@ -21,9 +21,6 @@ describe('AppController (e2e)', () => {
       .get('/test-personnummer')
       .expect(200)
       .then(v => {
-        const body = v.body;
-        const js = JSON.parse(body);
-        console.log(js);
         assert(Array.isArray(v.body));
       });
   });

@@ -16,8 +16,8 @@ describe('AppController', () => {
   });
 
   describe('tenor', () => {
-    it('should return Json File', async () => {
-      const tenorFile = await appController.getTenorFile();
+    it('should be able to read all tenor-files', async () => {
+      const tenorFile = await appController.getAllTenorFiles();
       expect(tenorFile).toBeDefined();
     });
   });

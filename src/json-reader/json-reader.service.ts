@@ -5,7 +5,7 @@ import { join } from 'path';
 export class JsonReaderService {
   async personNumberList() {
     try {
-      const syntheaFiles = await this.readDir('synthea');
+      const syntheaFiles = await this.readFileNamesIn('synthea');
       const filtered = syntheaFiles.filter(arr => arr.includes('syntheadata'));
       const result = filtered.map(filename => {
         const list = filename.split('.');
@@ -29,7 +29,7 @@ export class JsonReaderService {
   }
 
   async readAllFilesIndir(folder: 'tenor' | 'synthea') {
-    const allFileNames = await this.readDir(folder);
+    const allFileNames = await this.readFileNamesIn(folder);
     const allFiles: Promise<any>[] = [];
     allFileNames.forEach(f => {
       allFiles.push(this.readFile(f, folder));
@@ -39,10 +39,7 @@ export class JsonReaderService {
     return result;
   }
 
-  private async readFile(
-    fileName: string,
-    folder: 'tenor' | 'synthea',
-  ): Promise<any> {
+  async readFile(fileName: string, folder: 'tenor' | 'synthea'): Promise<any> {
     const path = join(__dirname, '..', '..', 'data', folder, fileName);
 
     try {
@@ -53,7 +50,7 @@ export class JsonReaderService {
     }
   }
 
-  private async readDir(dir: string) {
+  async readFileNamesIn(dir: 'tenor' | 'synthea') {
     const path = join(__dirname, '..', '..', 'data', dir);
     const files = await fs.readdir(path);
     return files;
