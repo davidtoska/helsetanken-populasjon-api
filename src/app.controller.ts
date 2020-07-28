@@ -1,13 +1,12 @@
 import { Controller, Get, Param } from '@nestjs/common';
-import { AppService } from './app.service';
 import {
-  ApiParam,
-  ApiOperation,
-  ApiTags,
-  ApiResponse,
   ApiNotFoundResponse,
   ApiOkResponse,
+  ApiOperation,
+  ApiParam,
+  ApiTags,
 } from '@nestjs/swagger';
+import { AppService } from './app.service';
 
 @Controller()
 export class AppController {

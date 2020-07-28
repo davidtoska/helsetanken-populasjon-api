@@ -16,8 +16,11 @@ describe('JsonReaderService', () => {
   });
 
   it('should return error with illegal file', async () => {
-    const file = await service.readTenorFile('p1asdf.json');
-    expect(file.error).toContain('Error');
+    try {
+      const file = await service.readTenorFile('p1asdf.json');
+    } catch (error) {
+      expect(error).toBeDefined();
+    }
   });
 
   it('personList should return a list', async () => {

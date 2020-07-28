@@ -1,9 +1,9 @@
-import { Test, TestingModule } from '@nestjs/testing';
 import { INestApplication } from '@nestjs/common';
+import { Test, TestingModule } from '@nestjs/testing';
 import * as request from 'supertest';
 import { AppModule } from './../src/app.module';
-import { assert } from 'console';
 
+const testId = '01043701319';
 describe('AppController (e2e)', () => {
   let app: INestApplication;
 
@@ -21,7 +21,8 @@ describe('AppController (e2e)', () => {
       .get('/test-personnummer')
       .expect(200)
       .then(v => {
-        assert(Array.isArray(v.body));
+        expect(Array.isArray(v.body));
+        expect(typeof v.body[0] === 'string');
       });
   });
 
@@ -30,29 +31,33 @@ describe('AppController (e2e)', () => {
       .get('/tenor-data')
       .expect(200)
       .then(v => {
-        assert(Array.isArray(v.body));
+        expect(Array.isArray(v.body));
       });
   });
 
-  it.only('/tenor-data/:p1 (GET)', () => {
+  it('/tenor-data/:testId (GET)', () => {
     return request(app.getHttpServer())
-      .get('/tenor-data/p1')
+      .get('/tenor-data/' + testId)
       .expect(200)
       .then(v => {
-        console.log(v.body);
-
-        assert(v.body['identifikasjonsnummer'] === null);
+        expect(v.body).toBeDefined();
+        expect(v.body['identifikasjonsnummer']).toBeDefined();
       });
   });
 
-  it.only('/synthea-data/:personnummer (GET)', () => {
+  it('/synthea-data/:testId (GET)', () => {
     return request(app.getHttpServer())
-      .get('/synthea-data/01011450055')
+      .get('/synthea-data/' + testId)
       .expect(200)
       .then(v => {
-        console.log(v.body);
-
-        assert(v.body['identifikasjonsnummer'] === null);
+        expect(v.body).toBeDefined();
+        expect(v.body['type']).toEqual('transaction');
       });
+  });
+
+  it('/synthea-data/:non-excisting gives 404 (GET)', () => {
+    return request(app.getHttpServer())
+      .get('/synthea-data/not-exsisting-id')
+      .expect(404);
   });
 });
