@@ -1,6 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { promises as fs } from 'fs';
 import { join } from 'path';
+
 @Injectable()
 export class JsonReaderService {
   async personNumberList() {
@@ -39,7 +40,10 @@ export class JsonReaderService {
     return result;
   }
 
-  async readFile(fileName: string, folder: 'tenor' | 'synthea'): Promise<any> {
+  async readFile(
+    fileName: string,
+    folder: 'tenor' | 'synthea' | 'prosessed',
+  ): Promise<any> {
     const path = join(__dirname, '..', '..', 'data', folder, fileName);
 
     try {

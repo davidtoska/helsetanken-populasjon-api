@@ -51,4 +51,8 @@ export class AppService {
     const result = await this.jsonReader.readFile(file, 'synthea');
     return result;
   }
+
+  async readProcessedFile(name: 'person-vm-list.json' | 'blah') {
+    return this.jsonReader.readFile(name, 'prosessed');
+  }
 }

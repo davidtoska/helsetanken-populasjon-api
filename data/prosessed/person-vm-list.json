@@ -1,0 +1,756 @@
+[
+  {
+    "navn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "GUSTAV",
+      "etternavn": "HEIM",
+      "forkortetNavn": "GUSTAV  HEIM"
+    },
+    "foedsel": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1937-04-01",
+      "foedselsaar": "1937",
+      "foedekommuneINorge": "4206",
+      "foedeland": "NOR"
+    },
+    "kjoenn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "mann"
+    },
+    "id": "01043701319"
+  },
+  {
+    "navn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "KRASS",
+      "etternavn": "GEOMETRI",
+      "forkortetNavn": "KRASS GEOMETRI"
+    },
+    "foedsel": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "2000-06-01",
+      "foedselsaar": "2000",
+      "foedekommuneINorge": "3025",
+      "foedeland": "NOR"
+    },
+    "kjoenn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "mann"
+    },
+    "id": "01060050356"
+  },
+  {
+    "navn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "LINA",
+      "etternavn": "PARVEEN",
+      "forkortetNavn": "LINA  PARVEEN"
+    },
+    "foedsel": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1946-12-01",
+      "foedselsaar": "1946",
+      "foedekommuneINorge": "3401",
+      "foedeland": "NOR"
+    },
+    "kjoenn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "kvinne"
+    },
+    "id": "01124602269"
+  },
+  {
+    "navn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "MORALSKGJENSIDIG",
+      "mellomnavn": "SLITEN",
+      "etternavn": "MAIS",
+      "forkortetNavn": "MORALSKGJENSIDIG SLITEN ."
+    },
+    "foedsel": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1964-04-02",
+      "foedselsaar": "1964",
+      "foedekommuneINorge": "0301",
+      "foedeland": "NOR"
+    },
+    "kjoenn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "mann"
+    },
+    "id": "02046400596"
+  },
+  {
+    "navn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "MOTVILLIG",
+      "etternavn": "ELLIPSE",
+      "forkortetNavn": "MOTVILLIG ELLIPSE"
+    },
+    "foedsel": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1972-10-02",
+      "foedselsaar": "1972",
+      "foedekommuneINorge": "3003",
+      "foedeland": "NOR"
+    },
+    "kjoenn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "mann"
+    },
+    "id": "02107202571"
+  },
+  {
+    "navn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Innvandring",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "HEVNGJERRIG",
+      "etternavn": "KRYPDYR",
+      "forkortetNavn": "HEVNGJERRIG KRYPDYR"
+    },
+    "foedsel": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1975-06-03",
+      "foedselsaar": "1975",
+      "foedekommuneINorge": "3005",
+      "foedeland": "NOR"
+    },
+    "kjoenn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "kvinne"
+    },
+    "id": "03067501852"
+  },
+  {
+    "navn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "ROSANYBAKT",
+      "etternavn": "UNGE",
+      "forkortetNavn": "ROSANYBAKT UNGE"
+    },
+    "foedsel": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1961-05-04",
+      "foedselsaar": "1961",
+      "foedekommuneINorge": "3807",
+      "foedeland": "NOR"
+    },
+    "kjoenn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "kvinne"
+    },
+    "id": "04056102693"
+  },
+  {
+    "navn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "ØYSTEIN",
+      "etternavn": "MOSEID",
+      "forkortetNavn": "ØYSTEIN  MOSEID"
+    },
+    "foedsel": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1947-03-05",
+      "foedselsaar": "1947",
+      "foedekommuneINorge": "3020",
+      "foedeland": "NOR"
+    },
+    "kjoenn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "mann"
+    },
+    "id": "05034702197"
+  },
+  {
+    "navn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "KOMPATIBEL",
+      "etternavn": "JORDBÆR",
+      "forkortetNavn": "KOMPATIBEL JORDBÆR"
+    },
+    "foedsel": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1939-12-05",
+      "foedselsaar": "1939",
+      "foedekommuneINorge": "4631",
+      "foedeland": "NOR"
+    },
+    "kjoenn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "mann"
+    },
+    "id": "05123900733"
+  },
+  {
+    "navn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Innvandring",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "MORSOM",
+      "mellomnavn": "EGOISTISK",
+      "etternavn": "GREVLING",
+      "forkortetNavn": "MORSOM EGOISTISK GREVLING"
+    },
+    "foedsel": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1980-12-05",
+      "foedselsaar": "1980",
+      "foedekommuneINorge": "3034",
+      "foedeland": "NOR"
+    },
+    "kjoenn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "mann"
+    },
+    "id": "05128001176"
+  },
+  {
+    "navn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "ØKOLOGISK",
+      "etternavn": "FUGL",
+      "forkortetNavn": "ØKOLOGISK FUGL"
+    },
+    "foedsel": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1991-08-06",
+      "foedselsaar": "1991",
+      "foedekommuneINorge": "0301",
+      "foedeland": "NOR"
+    },
+    "kjoenn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "mann"
+    },
+    "id": "06089100796"
+  },
+  {
+    "navn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "ASGEIR",
+      "etternavn": "MOLDSKRED",
+      "forkortetNavn": "ASGEIR  MOLDSKRED"
+    },
+    "foedsel": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1960-09-07",
+      "foedselsaar": "1960",
+      "foedekommuneINorge": "1103",
+      "foedeland": "NOR"
+    },
+    "kjoenn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "mann"
+    },
+    "id": "07096001341"
+  },
+  {
+    "navn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "FREDRICK",
+      "etternavn": "SLETTE",
+      "forkortetNavn": "FREDRICK  SLETTE"
+    },
+    "foedsel": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1941-12-07",
+      "foedselsaar": "1941",
+      "foedekommuneINorge": "4204",
+      "foedeland": "NOR"
+    },
+    "kjoenn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "mann"
+    },
+    "id": "07124100954"
+  },
+  {
+    "navn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "JACOB",
+      "etternavn": "STAVE",
+      "forkortetNavn": "JACOB  STAVE"
+    },
+    "foedsel": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1935-03-09",
+      "foedselsaar": "1935",
+      "foedekommuneINorge": "1103",
+      "foedeland": "NOR"
+    },
+    "kjoenn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "mann"
+    },
+    "id": "09033501118"
+  },
+  {
+    "navn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "BERØMT",
+      "mellomnavn": "HUSLØS",
+      "etternavn": "HISTORIEAUTORITET",
+      "forkortetNavn": "BERØMT HUSLØS HISTORIEAU."
+    },
+    "foedsel": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1931-04-09",
+      "foedselsaar": "1931",
+      "foedekommuneINorge": "4601",
+      "foedeland": "NOR"
+    },
+    "kjoenn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "kvinne"
+    },
+    "id": "09043100693"
+  },
+  {
+    "navn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "CHARLOTTE",
+      "etternavn": "HAALAND",
+      "forkortetNavn": "CHARLOTTE  HAALAND"
+    },
+    "foedsel": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1953-06-09",
+      "foedselsaar": "1953",
+      "foedekommuneINorge": "1506",
+      "foedeland": "NOR"
+    },
+    "kjoenn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "kvinne"
+    },
+    "id": "09065301889"
+  },
+  {
+    "navn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "EIRA",
+      "etternavn": "MELHUS",
+      "forkortetNavn": "EIRA  MELHUS"
+    },
+    "foedsel": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1939-09-10",
+      "foedselsaar": "1939",
+      "foedekommuneINorge": "4601",
+      "foedeland": "NOR"
+    },
+    "kjoenn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "kvinne"
+    },
+    "id": "10093902489"
+  },
+  {
+    "navn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "IAN",
+      "etternavn": "RODAL",
+      "forkortetNavn": "IAN  RODAL"
+    },
+    "foedsel": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1937-10-10",
+      "foedselsaar": "1937",
+      "foedekommuneINorge": "3401",
+      "foedeland": "NOR"
+    },
+    "kjoenn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "mann"
+    },
+    "id": "10103701924"
+  },
+  {
+    "navn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "KONTANT",
+      "etternavn": "FASTTELEFONIFEIDE",
+      "forkortetNavn": "KONTANT FASTTELEFONIFEIDE"
+    },
+    "foedsel": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1988-10-10",
+      "foedselsaar": "1988",
+      "foedekommuneINorge": "4631",
+      "foedeland": "NOR"
+    },
+    "kjoenn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "mann"
+    },
+    "id": "10108802346"
+  },
+  {
+    "navn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Innvandring",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "VIKTIG",
+      "etternavn": "LARVE",
+      "forkortetNavn": "VIKTIG LARVE"
+    },
+    "foedsel": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1973-06-11",
+      "foedselsaar": "1973",
+      "foedekommuneINorge": "1525",
+      "foedeland": "NOR"
+    },
+    "kjoenn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "mann"
+    },
+    "id": "11067300949"
+  },
+  {
+    "navn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "BIRGIT",
+      "etternavn": "MILDE",
+      "forkortetNavn": "BIRGIT  MILDE"
+    },
+    "foedsel": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1939-09-11",
+      "foedselsaar": "1939",
+      "foedekommuneINorge": "1507",
+      "foedeland": "NOR"
+    },
+    "kjoenn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "kvinne"
+    },
+    "id": "11093900245"
+  },
+  {
+    "navn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "BREDE",
+      "etternavn": "BRYN",
+      "forkortetNavn": "BREDE  BRYN"
+    },
+    "foedsel": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1944-09-11",
+      "foedselsaar": "1944",
+      "foedekommuneINorge": "3401",
+      "foedeland": "NOR"
+    },
+    "kjoenn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "mann"
+    },
+    "id": "11094401749"
+  },
+  {
+    "navn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "JULIA",
+      "etternavn": "HELGHEIM",
+      "forkortetNavn": "JULIA  HELGHEIM"
+    },
+    "foedsel": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1951-01-12",
+      "foedselsaar": "1951",
+      "foedekommuneINorge": "3024",
+      "foedeland": "NOR"
+    },
+    "kjoenn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "kvinne"
+    },
+    "id": "12015100859"
+  },
+  {
+    "navn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "FLYKTIG",
+      "etternavn": "GALLIUM",
+      "forkortetNavn": "FLYKTIG GALLIUM"
+    },
+    "foedsel": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1967-10-12",
+      "foedselsaar": "1967",
+      "foedekommuneINorge": "5421",
+      "foedeland": "NOR"
+    },
+    "kjoenn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "mann"
+    },
+    "id": "12106702770"
+  },
+  {
+    "navn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "JENNIFER",
+      "etternavn": "BERGSVIK",
+      "forkortetNavn": "JENNIFER  BERGSVIK"
+    },
+    "foedsel": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1944-11-13",
+      "foedselsaar": "1944",
+      "foedekommuneINorge": "3020",
+      "foedeland": "NOR"
+    },
+    "kjoenn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "kvinne"
+    },
+    "id": "13114400860"
+  },
+  {
+    "navn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "OLE",
+      "etternavn": "HJØRNEVIK",
+      "forkortetNavn": "OLE  HJØRNEVIK"
+    },
+    "foedsel": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1944-02-14",
+      "foedselsaar": "1944",
+      "foedekommuneINorge": "3001",
+      "foedeland": "NOR"
+    },
+    "kjoenn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "mann"
+    },
+    "id": "14024401392"
+  },
+  {
+    "navn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "KOSTBAR",
+      "etternavn": "PORTMANN",
+      "forkortetNavn": "KOSTBAR PORTMANN"
+    },
+    "foedsel": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1952-10-14",
+      "foedselsaar": "1952",
+      "foedekommuneINorge": "4222",
+      "foedeland": "NOR"
+    },
+    "kjoenn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "mann"
+    },
+    "id": "14105202998"
+  },
+  {
+    "navn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "BALDER",
+      "etternavn": "STORMARK",
+      "forkortetNavn": "BALDER  STORMARK"
+    },
+    "foedsel": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1977-04-15",
+      "foedselsaar": "1977",
+      "foedekommuneINorge": "3025",
+      "foedeland": "NOR"
+    },
+    "kjoenn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "mann"
+    },
+    "id": "15047700121"
+  },
+  {
+    "navn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Innvandring",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "UMOTIVERTUTROLIG",
+      "etternavn": "FERIE",
+      "forkortetNavn": "UMOTIVERTUTROLIG FERIE"
+    },
+    "foedsel": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "1943-10-15",
+      "foedselsaar": "1943",
+      "foedekommuneINorge": "4601",
+      "foedeland": "NOR"
+    },
+    "kjoenn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "kvinne"
+    },
+    "id": "15104301883"
+  },
+  {
+    "navn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "aarsak": "Første gangs navnevalg",
+      "gyldighetstidspunkt": "2019-01-01T00:00:00+01:00",
+      "fornavn": "VIS",
+      "mellomnavn": "DISTINGVERT",
+      "etternavn": "KONTORBYGG",
+      "forkortetNavn": "VIS DISTINGVERT KONTORBY."
+    },
+    "foedsel": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "foedselsdato": "2004-02-16",
+      "foedselsaar": "2004",
+      "foedekommuneINorge": "5001",
+      "foedeland": "NOR"
+    },
+    "kjoenn": {
+      "erGjeldende": true,
+      "kilde": "KILDE_DSF",
+      "kjoenn": "kvinne"
+    },
+    "id": "16020450820"
+  }
+]
