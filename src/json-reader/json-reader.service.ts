@@ -1,5 +1,10 @@
-import { Injectable } from '@nestjs/common';
-import { promises as fs } from 'fs';
+import {
+  Injectable,
+  InternalServerErrorException,
+  NotFoundException,
+} from '@nestjs/common';
+import { promises as fsp } from 'fs';
+import * as fs from 'fs';
 import { join } from 'path';
 
 @Injectable()
@@ -45,18 +50,34 @@ export class JsonReaderService {
     folder: 'tenor' | 'synthea' | 'prosessed',
   ): Promise<any> {
     const path = join(__dirname, '..', '..', 'data', folder, fileName);
+    const fileExcists = fs.existsSync(path);
+    if (!fileExcists) {
+      throw new NotFoundException('Not found');
+    }
 
     try {
-      const rawData = await fs.readFile(path, 'utf-8');
+      const rawData = await fsp.readFile(path, 'utf-8');
       return JSON.parse(rawData);
     } catch (error) {
-      return { error: 'Error while parsing file', fileName };
+      throw new InternalServerErrorException('Error while parsing json-data');
     }
   }
 
   async readFileNamesIn(dir: 'tenor' | 'synthea') {
     const path = join(__dirname, '..', '..', 'data', dir);
-    const files = await fs.readdir(path);
-    return files;
+    const dirExcists = fs.existsSync(path);
+
+    if (!dirExcists) {
+      throw new InternalServerErrorException(
+        'Directory ' + dir + ' dont excist.',
+      );
+    }
+
+    try {
+      const files = await fsp.readdir(path);
+      return files;
+    } catch (error) {
+      throw new InternalServerErrorException();
+    }
   }
 }

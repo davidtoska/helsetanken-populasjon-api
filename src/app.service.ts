@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, NotFoundException } from '@nestjs/common';
 import { JsonReaderService } from './json-reader/json-reader.service';
 
 @Injectable()
@@ -29,7 +29,7 @@ export class AppService {
     const fileNames = await this.jsonReader.readFileNamesIn('synthea');
     const filtered = fileNames.filter(fn => fn.includes('hospitalInformation'));
     if (filtered.length !== 1) {
-      return { error: 'Could not find hospitalFile' };
+      throw new NotFoundException();
     }
     const file = filtered[0];
     const result = await this.jsonReader.readFile(file, 'synthea');
@@ -44,7 +44,7 @@ export class AppService {
     );
 
     if (filtered.length !== 1) {
-      return { error: 'Could not find PractitionerFile' };
+      throw new NotFoundException();
     }
     const file = filtered[0];
 

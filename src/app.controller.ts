@@ -1,6 +1,13 @@
 import { Controller, Get, Param } from '@nestjs/common';
 import { AppService } from './app.service';
-import { ApiParam, ApiOperation, ApiTags } from '@nestjs/swagger';
+import {
+  ApiParam,
+  ApiOperation,
+  ApiTags,
+  ApiResponse,
+  ApiNotFoundResponse,
+  ApiOkResponse,
+} from '@nestjs/swagger';
 
 @Controller()
 export class AppController {
@@ -29,6 +36,7 @@ export class AppController {
   @Get('tenor-data/:personnummer')
   @ApiParam({ name: 'personnummer', type: 'string' })
   @ApiTags('Tenor')
+  @ApiNotFoundResponse({ description: 'Not found' })
   getTenorFile(@Param('personnummer') pnr) {
     return this.appService.getTenorFile(pnr);
   }
@@ -40,6 +48,7 @@ export class AppController {
     description: '',
   })
   @ApiTags('Synthea')
+  @ApiNotFoundResponse({ description: 'Not found' })
   getSyntheaData(@Param('personnummer') pnr) {
     return this.appService.getSyntheaFile(pnr);
   }
@@ -50,16 +59,20 @@ export class AppController {
     description: 'Contains all hospitals userd in patients dataset.',
   })
   @ApiTags('Universe')
+  @ApiOkResponse({ description: 'All hospitals' })
+  @ApiNotFoundResponse({ description: 'Not found' })
   getHospitalInfo() {
     return this.appService.getHospitalInfo();
   }
 
-  @Get('practitioner-info')
+  @ApiOkResponse({ description: 'All practitioners' })
+  @ApiNotFoundResponse({ description: 'Not found' })
   @ApiOperation({
     summary: 'Fhir bundle containing practitioners',
     description: 'Contains all practitioners used in patients dataset.',
   })
   @ApiTags('Universe')
+  @Get('practitioner-info')
   getPractitionerInfo() {
     return this.appService.getPractitionerInfo();
   }
